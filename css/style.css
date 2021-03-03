@@ -13,6 +13,7 @@ h2.font-cinzel {
 }
 h2.font-reggae {
     font-family: 'Reggae One', Arial, Helvetica, sans-serif;
+    font-size: 3em;
 }
 /* reggae-one-regular - latin */
 @font-face {
