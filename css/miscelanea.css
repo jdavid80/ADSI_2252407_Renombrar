@@ -1,0 +1,40 @@
+body {
+    font-size: 50px;
+    color: darkcyan;
+    font-weight: 900;
+    font-style: italic;
+}
+p {
+    font-size: 1em;
+    
+}
+#parrafo-especial {
+    text-align: center;
+    font-style: normal;
+    color:rgb(48,48,48);
+    font-weight: 400;
+    font-size: 0.7em;
+}
+img {
+    display: block;
+    margin: 20px auto;
+}
+p.img-card {
+    text-align: center;
+    color: rgb(48,48,48);
+    font-size: .45em;
+    font-style: normal;
+    line-height: .2em;
+}
+/* div.main-content {
+    display: inline-block;
+    margin: 0 auto;
+} */
+div.box-card {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 20px 10px;
+    background-color: gainsboro;
+    border-radius: 7px;
+  /*   width: 360px; */
+}

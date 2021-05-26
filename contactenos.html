@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="css/listas.css">
+    <link rel="stylesheet" href="css/contactenos.css">
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="tablas.html">Tablas</a></li>
+        <li><a href="">Contactenos</a></li>
+        <li><a href="layouts.html">Layouts</a></li>
+    </ul>
+    <h1>Contactenos</h1>
+    <!-- formulario -->
+    <form action="tablas.html" method="post">
+        <fieldset>
+        <legend>Ingrese la información</legend>
+        <!-- Ingrese su nombre<br> -->
+        <input type="text" name="nombre" size="40" maxlength="5"
+        placeholder="Ingrese su nombre"><br><br>
+        <!-- Ingrese sus apellidos<br> -->
+        <input type="text" name="apellidos" size="40" maxlength="5"
+        placeholder="Ingrese sus apellidos"><br><br>
+        Ingrese su inquietud<br>
+        <textarea name="pregunta" cols="40" rows="5"></textarea><br><br>
+        Género<br>
+        <input type="radio" name="genero" value="masculino">Masculino<br>
+        <input type="radio" name="genero" value="femenino">Femenino<br>
+        <input type="radio" name="genero" value="indeterminado">Indeterminado<br><br>
+        Bicicleta de Interes<br>
+        <input type="checkbox" name="interes" value="mtb">MTB<br>
+        <input type="checkbox" name="interes" value="ruta">Ruta<br>
+        <input type="checkbox" name="interes" value="bmx">BMX<br>
+        <input type="checkbox" name="interes" value="hibrida">Híbrida<br><br>
+        Ciudad de Residencia<br>
+        <select name="ciudad">
+            <option value="Neiva">Neiva</option>
+            <option value="Pitalito">Pitalito</option>
+            <option value="Timana">Timaná</option>
+            <option value="San Agustin">San Agustín</option>
+            <option value="Acevedo">Acevedo</option>
+            <option value="Saladoblanco">Saladoblanco</option>
+            <option value="Oporapa">Oporapa</option>
+            <option value="Elias">Elías</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>

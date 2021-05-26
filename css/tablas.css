@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+}
+table {
+    width: 1050px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr, th, td {
+    border: 1px solid rgb(90,90,90);
+    font-size: 1.3em;
+}
+th.head-horizontal, th.head-horizontal-modAncho {
+    padding: 15px;
+}
+td {
+    padding: 5px 15px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.head-horizontal-modAncho {
+    width: 20%;
+}
+.alin-arriba {
+    vertical-align: top;
+}
+th {
+    color: white;
+    padding-bottom: 0px;
+}
+.head1 {
+  background: dimgray;
+}
+.head1, .head2 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.head2 {
+    background: rgb(242,182,32);
+    border: solid 1px rgb(242,182,32);
+    /* text-align: center;*/
+} 
+.head1-add {
+    background: dimgray;
+}
+.head2-add {
+    background: rgb(242,182,32);
+}
+.promocion {
+    font-size: .7em;
+    color: white;
+    vertical-align: top;
+    text-align: center;
+}
+.ancho-minimo {
+    /* height: 10px; */
+    padding: 0;
+}

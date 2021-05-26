@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+    <link rel="stylesheet" href="css/tablas.css">
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <table>
+        <tr>
+            <th class="head-horizontal" scope="col">Núm.</th>
+            <th class="head-horizontal" scope="col">Nombres</th>
+            <th class="head-horizontal-modAncho" scope="col">Apellidos del aprendiz</th>
+            <th class="head-horizontal" scope="col">Ciudad</th>
+            <th class="head-horizontal" scope="col">Lenguaje Favorito</th>
+            <th class="head-horizontal" scope="col">Lenguaje Que usa actualmente</th>
+        </tr>
+        <tr>
+            <th scope="row">1</th>
+            <td>Francisco</td>
+            <td>Plazas</td>
+            <td class="alin-arriba" rowspan="3">Pitalito</td>
+            <td>C#</td>
+            <td>Javascript</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Evelin</td>
+            <td>Bermeo</td>
+            <td colspan="2">Java</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Alejandro</td>
+            <td>Cubillos</td>
+            <td>C++</td>
+            <td>Python</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>Jhon Mario</td>
+            <td>Chilito</td>
+            <td>San Agustín</td>
+            <td>PHP</td>
+            <td>C#</td>
+        </tr>
+    </table><br><br>
+    <table>
+        <tr>
+            <th></th>
+            <th class="head1">Starter</th>
+            <th class="head2">Basic</th>
+        </tr>
+        <tr class="ancho-minimo">
+            <td ></td>
+            <td class="head1-add"></td>
+            <td class="head2-add"><span class="promocion">(solo por este mes)</span></td>
+        </tr>
+        <tr>
+            <td>Quo Molitia pariatur</td>
+            <td>5 GB Molitia</td>
+            <td>20 GB Molitia</td>
+        </tr>
+        <tr>
+            <td>Rerum Facilis</td>
+            <td>1 Qui officia</td>
+            <td>5 Qui officia</td>
+        </tr>
+        <tr>
+            <td>SIGNUP</td>
+            <td>SIGNUP</td>
+            <td>SIGNUP</td>
+        </tr>
+    </table>
+    <!-- <table>
+        <tr>
+            <th scope="col">Titulado</th>
+            <th scope="col">Nombre del Instructor</th>
+            <th scope="col">Apellidos</th>
+        </tr>
+        <tr>
+            <th scope="row">ADSI 2252407</th>
+            <td>Jesus David</td>
+            <td>Calderón Gómez</td>
+        </tr>
+        <tr>
+            <th scope="row">REDES 2280204</th>
+            <td>Jose</td>
+            <td>Cuellar</td>
+        </tr>
+        <tr>
+            <th scope="row">Multimedia 2265302</th>
+            <td>Silvia</td>
+            <td>Vasquez</td>
+        </tr>
+    </table> -->
+</body>
+</html>
