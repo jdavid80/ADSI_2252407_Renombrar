@@ -1,0 +1,35 @@
+.content-nav-bar {
+    background: rgb(220,8,20, .8);
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.content-nav-bar-hidden {
+    background: rgb(220,8,20 .9);
+    width: 100%;
+    height: 60px;
+    visibility: hidden;
+}
+#nav-bar {
+    color: white;
+    font-size: 1.6em;
+    text-align: right;
+    margin-top: .5em;
+}
+.item-menu {
+    padding: 1px 20px;
+    display: inline-block;
+}
+.img-logo {
+    float: left;
+    margin: .3em .5em .5em 2.5em;
+}
+p {
+    font-size: 1.8em;
+    text-align: justify;
+    margin-left: 2em;
+    margin-right: 2em;
+    clear: both;
+}
