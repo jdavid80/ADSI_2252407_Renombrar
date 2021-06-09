@@ -1,0 +1,33 @@
+body {
+/*     background: url(../img/bici-bg4_new.jpg);
+    background-size: cover; */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+#nav-bar {
+    width: 100%;
+    position: absolute;
+}
+ul {
+    text-align: right;
+}
+li {
+    display: inline-block;
+    font-size: 1.6em;
+    padding: 1em 1em;
+}
+a {
+    color: whitesmoke;
+    
+    text-decoration: none;
+}
+p {
+    font-size: 1.5em;
+    margin: 1em 4em;
+    text-align: justify;
+}

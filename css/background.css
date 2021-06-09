@@ -1,0 +1,28 @@
+body {
+    background-image: url("../img/bici-bg0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Auto 
+    Trae la imagen original sin ninguna modificación*/
+    /* ******* */
+    /* Cover 
+    Cubrir, rellenar...Va a rellenar todo el espacio disponible*/
+
+    /* Contain 
+    Se va a ver todo el contenido de la imagen
+    pero van a quedar espacios en la pantalla vacios*/
+    
+}
+#main {
+    /* width: 1350px;
+    height: 600px;
+    background-image: url("../img/bici-bg0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  */
+   /*  
+     */
+    /* background-position: right; */
+    /*  */
+}
