@@ -1,46 +1,48 @@
-h1 {
-    text-align: center,
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
 }
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+nav {
+    font-size: 1.5em;
+    background: darkcyan;
 }
 nav ul {
     list-style: none;
+    padding: 0;
+    display: table;
+    background: darkcyan; 
+    position: absolute;
+    width: 100%;
+} 
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 3em;
+    color:  white;
+}
+/* Menú Primer Nivel */
+nav > ul > li {
+    float: left;
+    width: 320px;
+    line-height: 70px;
 }
 nav li {
-    line-height: 2.5em;
     position: relative;
 }
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 0 3em;
-    display: block;
-}
-.menu {
-    width: 100%;
-    background: darkcyan;
-    display: table;
-}
-.menu ul {
-    position: absolute;
-}
-.menu > li {
-    float: left;
-    width: 170px;
-}
-/* Segundo Nivel */
-nav li li {
-    width: 220px;
+/* Menú Segundo Nivel */
+nav li li  {
     max-height: 0;
-    overflow:hidden;
-    background: darkcyan;
+    transition: all 1s;
 }
-nav li:hover > ul > li {
+nav li:hover > ul> li 
+{
+    visibility: visible;
+    max-height: 500px;
     overflow: visible;
-    max-height: 100%;
 }
-.menu > li >ul {
-    top: 102%;
-
+/* Menú Tercer Nivel */
+nav ul ul ul {
+    left: 100%;
+    top: 0;
 }
