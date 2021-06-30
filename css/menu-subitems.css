@@ -19,7 +19,7 @@ nav a {
     text-decoration: none;
     display: block;
     padding: 0 3em;
-    color:  white;
+    color:  black;
 }
 /* Menú Primer Nivel */
 nav > ul > li {
@@ -34,6 +34,7 @@ nav li {
 nav li li  {
     max-height: 0;
     transition: all 1s;
+    overflow: hidden;
 }
 nav li:hover > ul> li 
 {
