@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content-main {
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 50px;
+}
+.content-1 {
+    float: left;
+    width: 27%;
+}
+.content-2 {
+    float: left;
+    width: 27%;
+}
+.content-3 {
+    float: left;
+    width: 27%;
+    margin-right: 4.3%;
+}
+.content-1, .content-2, .content-3 {
+    margin-left: 4.3%;
+}
+h1, h2 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 15px auto;
+}
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+/* Para pantallas medianas PC */
+@media only screen and (min-width: 1024px)
+and (max-width: 1680px) {
+    body {
+        background-color: darkcyan;
+    }
+    .content-main {
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .content-1 {
+        float: left;
+        width: 40.5%;
+    }
+    .content-2 {
+        float: left;
+        width: 40.5%;
+    }
+    .content-3 {
+        width: 88%;
+        display: block;
+        margin: 0 auto 50px auto;
+
+    }
+    .content-1, .content-2, .content-3 {
+        margin-left: 6%;
+    }
+}
+/* Para pantallas pequeñas PC */
+@media only screen and (min-width:768px) 
+and (max-width: 1023px) {
+    body {
+        background-color: pink;
+    }
+    .content-main {
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .content-1 {
+        float: left;
+        width: 81%;
+    }
+    .content-2 {
+        float: left;
+        width: 81%;
+    }
+    .content-3 {
+        float: left;
+        width: 81%;
+    }
+    .content-1, .content-2, .content-3 {
+        margin-left: 9%;
+    }
+}
+/* Para Celulares*/
+@media only screen and (max-width:767px) {
+    body {
+        background-color: goldenrod;
+    }
+    .content-main {
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .content-1 {
+        float: left;
+        width: 81%;
+    }
+    .content-2 {
+        float: left;
+        width: 81%;
+    }
+    .content-3 {
+        float: left;
+        width: 81%;
+    }
+    .content-1, .content-2, .content-3 {
+        margin-left: 9%;
+    }
+}
