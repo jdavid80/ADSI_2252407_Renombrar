@@ -1,0 +1,32 @@
+nav ul {
+    /* 1 */
+    list-style: none;
+    /* 2 */
+    padding: 0;
+}
+nav li {
+    line-height: 3em;
+
+}
+nav a {
+    /* 3 */
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav > ul {
+    background: gray;
+    display: table;
+    width: 100%;
+}
+
+nav ul ul {
+    /* 4 */
+    display: none;
+}
+/* 5 */
+nav > ul > li {
+    float: left;
+}
+/* Primer Nivel */
