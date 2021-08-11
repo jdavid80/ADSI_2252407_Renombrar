@@ -10,16 +10,15 @@ h1 {
     font-size: 1.5em;
     text-align: right;
     color: rgba(255,255,255,.7);
-    margin: 40px 40px 35px 0;
+    margin: 40px 20px 35px 0;
     padding-right: 5em;
 }
 nav {
     background-color: rgba(0,0,0,.8);
-    position: absolute;
+    position: fixed;
     height: 100%;
-    padding-right: 2em;  /* VERIFICAR */
+    padding-right: 2em;
     top: 0;
-    /* padding-top: 3em; */
     z-index: 10;
     left: -19em;
     transition: all .5s;
@@ -54,13 +53,14 @@ nav {
 }
 .fas, .fab {
     color: white;
-    padding-right: .3em; /* VERIFICAR */
+    padding-right: .3em;
 }
 label.icono-menu {
-    position: absolute;
+    position: fixed;
     z-index: 20;
     top: 50px;
     left: 40px;
+    cursor: pointer;
 }
 nav.mostrarNav {
     left: 0;
