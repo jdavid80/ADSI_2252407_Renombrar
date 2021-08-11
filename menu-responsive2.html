@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsive 2</title>
+    <link rel="stylesheet" href="css/menu-responsive2.css">
+    <link rel="stylesheet" href="fonts/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="menu-bar">
+            <a class="bt-menu" href="#"><span class="icon-menu"></span></a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#"><span class="icon icon-home"></span>Inicio</span></a></li>
+            <li><a href="#"><span class="icon icon-suitcase"></span>Productos</a></li>
+            <li><a href="#"><span class="icon icon-rocket"></span>Proyectos<span class="icon icon-chevron-small-down"></span></a>
+                <ul class="children">
+                    <li><a href=""><a href="">Proyecto 1<span class="icon icon-dot-single"></span></a></li>
+                    <li><a href="">Proyecto 2<span class="icon icon-dot-single"></span></a></li>
+                    <li><a href="">Proyecto 3<span class="icon icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li><a href="#"><span class="icon icon-globe"></span>Servicios</a></li>
+            <li><a href="#"><span class="icon icon-mail"></span>Contacto</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
