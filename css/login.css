@@ -9,6 +9,9 @@ body {
     border-radius: 100x;
     background-color: rgb(255,255,255,.5);
 }
+form {
+    background: red;
+}
 .main-content {
     display: flex;
     justify-content: center;
@@ -21,7 +24,7 @@ body {
     position: fixed;
     width: 300px;
     height: 400px;
-    background-color: rgb(255,255,255,.2);
+    background-color: rgb(255,255,255,.4);
     border-radius: 40px;
     flex-direction: column;
     justify-content: center;
@@ -29,13 +32,10 @@ body {
 input[type="text"], input[type="password"] {
     background-color: transparent;
     border: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
     width: 70%;
     outline: none;
-    color: rgb(64,64,64);
-}
-input[type="checkbox"] {
-    background-color: transparent;
+    color: rgb(48,48,48);
 }
 .input-name, .input-pass  {
     border-bottom: 2px solid rgb(255,255,255,.9);
@@ -69,11 +69,18 @@ i {
 button {
     border: none;
     padding: 20px;
-    margin: 20px;
+    margin: 40px 20px 0 20px;
     cursor: pointer;
     border-radius: 15px;
     color: white;
     background-color: rgb(48,48,48, .9);
+}
+button:hover {
+    background-color: rgb(12,12,12, .9); 
+}
+button:focus {
+    background-color: rgb(12,12,12, .9);
+    outline: none;
 }
 h2 {
     text-align: center;
@@ -87,8 +94,12 @@ h2 {
     font-size: 1em;
     font-weight: 600;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     text-decoration: none;
+}
+.remember-pass:hover, .remember-pass:focus {
+    color: rgb(175, 22, 61);
+    outline: none;
 }
 @media only screen and (max-width: 767px) {
     .login-content {
