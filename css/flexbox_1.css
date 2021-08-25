@@ -74,6 +74,7 @@
     display: flex;
     background-color: darkcyan;
     justify-content: stretch;
+    align-items: stretch;
 }
 .container-flex-15 {
     display: flex;
@@ -84,10 +85,10 @@
     width: 100%;
 }
 .item-flex {
-    width: 400px;
-    height: 550px;
+    width: 300px;
+    height: 300px;
     background-color: goldenrod;
     color: white;
     font-size: 1.5em;
-    
+    margin: 20px;
 }
