@@ -44,7 +44,7 @@ label {
     .menu {
         text-align: center;
         width: 100%;
-        display: none;
+        /* display: none; */
     }
     .menu a {
         display: block;

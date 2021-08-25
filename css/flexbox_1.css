@@ -30,7 +30,7 @@
 .container-flex-6 {
     display: flex;
     background-color: darkcyan;
-    flex-flow: row nowrap ;
+    flex-flow: row nowrap;
 }
 .container-flex-7 {
     display: flex;
@@ -82,6 +82,14 @@
     align-items: center;
     background-color: darkcyan;
     height: 100vh;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.container-flex-16 {
+    display: flex;
+    align-items: center;
+    background-color: darkcyan;
+    height: 90vh;
     width: 100%;
 }
 .item-flex {
