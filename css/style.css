@@ -81,7 +81,7 @@ blockquote {
 div.contenedor-1 {
     height: 200px;
     width: 350px;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     display: inline-block;
     margin: 0 auto;
 }
