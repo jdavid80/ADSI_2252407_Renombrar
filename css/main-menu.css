@@ -71,8 +71,6 @@ a:hover {
 @media only screen and (max-width: 600px) {
     #side-header {
         width: 120%;
-        /* height: 100vh; */
-        /* background: white; */
         overflow-x: hidden;
     }
     h1 {
@@ -110,22 +108,12 @@ a:hover {
     nav.mostrarNav {
         left: 0;
     }
-    /* 
-    li {
-        margin: 0;
-        padding: 0;
-    }
     a {
         border-top: 1px solid rgb(96,96,96,.8);
         padding: 20px;
         margin: 0 10px 0 10px;
     }
-   a:hover {
+       a:hover {
        border-radius: 0;
    }
-  
-   
-   .main-content {
-       z-index: 10;
-   }*/
 } 
