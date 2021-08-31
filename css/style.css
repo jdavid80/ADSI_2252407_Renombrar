@@ -4,6 +4,8 @@
 }
 body {
     text-align: center;
+    display: flex;
+    align-items: stretch;
 }
 .main-content {
     width: 95%;
