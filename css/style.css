@@ -5,9 +5,9 @@
 body {
     text-align: center;
 }
-/* .main-content {
-    widthn:
-} */
+.main-content {
+    width: 95%;
+}
 .titulo-principal {
     margin: 25px;
 }
