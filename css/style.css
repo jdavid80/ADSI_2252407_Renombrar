@@ -4,8 +4,7 @@
 }
 body {
     text-align: center;
-    display: flex;
-    align-items: stretch;
+    width: 95vh;
 }
 .main-content {
     width: 95%;
