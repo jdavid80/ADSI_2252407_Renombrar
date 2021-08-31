@@ -4,10 +4,10 @@
 }
 body {
     text-align: center;
-    width: 95vh;
+    width: 95vw;
 }
 .main-content {
-    width: 95%;
+    /* width: 95%; */
 }
 .titulo-principal {
     margin: 25px;
