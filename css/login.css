@@ -41,14 +41,6 @@ input[type="text"], input[type="password"] {
     border-bottom: 2px solid rgb(255,255,255,.9);
     border-bottom: 2px solid rgb(64,64,64, .7);
     margin: 15px 20px;
-   /*  margin: -30px 20px 0 20px; */
-}
-.input-checkbox {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    background: red;
-    padding: 20px;
 }
 i {
     color: white;
@@ -112,7 +104,4 @@ h2 {
         overflow: hidden;
     }
 }
-/* .text-recordar-pass {
-    margin-left: 0;
-    padding: 0;
-} */
+
