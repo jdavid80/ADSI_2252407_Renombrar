@@ -1,0 +1,19 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 150px 300px;
+    width: 90%;
+    max-width: 1000px;
+    border: 10px solid black;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.contenedor > div {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    background: #2f89fc;
+    box-shadoW: 2px 2px 10px rgba(0,0,0,.25); 
+}
