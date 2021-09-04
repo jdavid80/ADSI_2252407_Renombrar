@@ -1,0 +1,89 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+.calendario {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.mes {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+.nombre-mes {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 1.9em;
+    padding-bottom: .5em;
+    border-bottom: 2px solid goldenrod;
+}
+.dia-semana-nombre, .dia-habil, .holliday {
+    font-family: 'Roboto', sans-serif;
+}
+.dia-semana-nombre {
+    display: flex;
+    background-color: darkcyan;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.dia-1 {
+    grid-column-start: 4;
+}
+.holliday, .dia-habil {
+    height: 70px;
+    font-size: .8em;
+    font-weight: 600;
+}
+.holliday {
+    background-color: rgb(238, 69, 142);
+    color: white;
+    font-weight: 500;
+    font-size: .65em;
+}
+.dia-habil {
+    background-color: rgb(242,244,235);
+}
+.numero-dia {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+.holliday-text {
+    position: relative;
+}
+.texto-descrip {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    margin-right: 3px;
+}
+@media only screen and (max-width: 750px) {
+    .dia-semana-nombre {
+        font-size: .7em;
+    }
+    .dia-habil, .holliday {
+        height: 40px;
+    }
+    .texto-descrip {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+        margin-right: 3px;
+        font-size: .8em;
+    }
+}
