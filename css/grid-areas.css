@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+Header, Nav, Aside, Article, Footer {
+    padding: 20px;
+    font-size: 1.6em;
+    border: 3px solid whitesmoke;
+    text-align: center;
+    color: white;
+}
+.page-content {
+    display: grid;
+    grid-template: "header   header" 100px
+                    "navbar  navbar" 100px
+                    "sidebar main"   
+                    "footer  footer" 150px /
+                    200px    auto;
+}
+.header {
+    background: darkcyan;
+    grid-area: header;
+}
+.navbar {
+    background: goldenrod;
+    grid-area: navbar;
+}
+.sidebar {
+    background: limegreen;
+    grid-area: sidebar;
+}
+.main {
+    /* background: #FB5B04; */
+    grid-area: main;
+}
+.footer {
+    background: rgb(177, 160, 160);
+    grid-area: footer;
+}
+@media only screen and (max-width: 600px) {
+    .page-content {
+        grid-template: "header" 100px
+                        "navbar" 100px
+                        "main" 500px
+                        "sidebar" 300px
+                        "footer" 150px;
+    }
+}
