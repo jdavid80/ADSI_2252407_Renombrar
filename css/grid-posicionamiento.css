@@ -4,7 +4,6 @@ h1 {
 .contenedor {
     display: grid;
      grid-template-columns: repeat(4, 1fr);
-    /*grid-template-rows: minmax(100px, auto); */
     gap: 20px;
     width: 90%;
     max-width: 1000px;
