@@ -1,10 +1,10 @@
-body {
-/*     background: url(../img/bici-bg4_new.jpg);
-    background-size: cover; */
-}
 * {
     margin: 0;
     padding: 0;
+}
+h1 {
+    margin-top: 25px;
+    text-align: center;
 }
 img {
     width: 100%;
