@@ -64,18 +64,6 @@ a {
     width: 100%;
     clear: both;
 }
-.box-img-principal-big {
-    display: block;
-    margin-bottom: 70px;
-}
-.box-img-principal-small {
-    margin-bottom: 50px;
-    display: none;
-}
-.box-img-principal-small-II {
-    margin-bottom: 30px;
-    display: none;
-}
 section {
     background: url("../img/spa-principal_2560x867.jpg");
     margin-top: 70px; 
@@ -87,13 +75,13 @@ section {
 .articles {
     display: grid;
     width: 90%;
-     margin: 50px auto;
-     grid-template-columns: repeat(3,400px);
+    margin: 50px auto;
+    grid-template-columns: repeat(3,400px);
     gap: 60px;
     grid-template: "masajes     piedras      manicure"     auto    
                    "maquillaje  peluqueria   depilacion"   auto
                    "productos   aceites      empty"        auto /
-                   400px        400px        400px;
+                    400px       400px        400px;
 
     justify-content: center;
 }
@@ -231,8 +219,8 @@ footer {
         grid-template-columns: 1fr, auto;
         gap: 40px;
 
-        grid-template: "masajes"    auto    
-                       "piedras"    auto    
+        grid-template: "piedras"    auto    
+                       "masajes"    auto    
                        "manicure"   auto  
                        "maquillaje" auto    
                        "peluqueria" auto  
