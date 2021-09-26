@@ -17,21 +17,10 @@ nav {
     width: 100%;
     top: 0;
     background: rgb(243,243,243);
-/*     z-index: 5; */
-    /* border: 1px solid rgb(0,0,0,.1); */
-    /* height: 75px; */
-}
-/* .nav-hidden {
-    position: static;
-    visibility: hidden;
-    margin-bottom: 30px;
-} */
-/* #btn-menu {
-    /* display: none; */
-/* } */ 
+} 
 .menu-burger {
     position: absolute;
-    right: 2px;
+    right: 20px;
     top: 10px;
     font-size: 2em;
     display: none;
@@ -88,9 +77,8 @@ a {
     display: none;
 }
 section {
-    /* background: url("../img/spa-principal_2560x867.jpg"); */
-    margin-top: 70px; 
     background: url("../img/spa-principal_2560x867.jpg");
+    margin-top: 70px; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -157,7 +145,7 @@ p {
 footer {
     height: 50px;
 }
-/* @media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1450px) {
 
     .articles {
          grid-template-columns: repeat(3,350px);
@@ -172,16 +160,7 @@ footer {
     .img-article {
         width: 350px; 
     }
-    .box-img-principal-big {
-        display: block;
-    }
-    .box-img-principal-small {
-        display: none;
-    }
-    .box-img-principal-small-II {
-        display: none;
-    }
-} */
+}
 @media only screen and (max-width: 1268px) {
     .articles {
          grid-template-columns: repeat(2, 400px);
@@ -196,15 +175,6 @@ footer {
     .img-article {
         width: 400px; 
     }
-/*     .box-img-principal-big {
-        display: block;
-    }
-    .box-img-principal-small {
-        display: none;
-    }
-    .box-img-principal-small-II {
-        display: none;
-    } */
 }
 @media only screen and (max-width: 960px) {
     .icono-spa {
@@ -224,57 +194,22 @@ footer {
     .img-article {
         width: 350px; 
     }
-    .box-img-principal-big {
-        display: none;
-    }
-    .box-img-principal-small {
-        display: block;
-    }
-    .box-img-principal-small-II {
-        display: none;
-    }
-    menu ul {
-        flex-direction: column;
-    }
 @media only screen and (max-width: 800px) {
     .menu-burger {
         display: block;
         color: rgb(48,48,48,.8);
     }
       header nav {
-        /* background: transparent;  */
-      /*  /* height: calc(100vh - 35px); */
-        /* height: 100vh;
-        width: 70%; */
-       /* display: block; */
         height: 75px;
         z-index: 10;
-/*        /*  height: calc(100vh - 75px);
-        background: rgb(0,0,0,.8);
-        top: 70px;
-        
-        
-        
-        
-        */
      }  
      .menu {
-
          background: rgb(0,0,0,.7);
          height: 100vh;
-        /* flex-direction: column;
-        align-items:baseline;
-        justify-content: flex-start; */
         display: block;
         right: 100%;
         padding-top: 50px;
         position: absolute;
-       /* 
-        
-        
-        margin-top: 75px;
-        width: 70%;
-        left: 0; */
     }
     li {
         display: block;
@@ -285,10 +220,6 @@ footer {
      a {
         color: white;
         display: block;
-        
-        /*margin-left: 20px;
-        display: block;
-        */
     } 
     .last-item {
         display: none;
@@ -296,17 +227,8 @@ footer {
     .icono-spa {
         left: 30px;
     }
-/*     .box-img-principal-big {
-        display: none;
-    }
-    .box-img-principal-small {
-        display: none;
-    }
-    .box-img-principal-small-II {
-        display: block;
-    } */
     .articles {
-        grid-template-columns: 1fr, 400px;
+        grid-template-columns: 1fr, auto;
         gap: 40px;
 
         grid-template: "masajes"    auto    
@@ -317,19 +239,16 @@ footer {
                        "depilacion" auto
                        "productos"  auto
                        "aceites"    auto /
-                        400px;       
+                        minmax(auto, 400px);       
     }
     .img-article {
-        width: 400px; 
+        width: 90%; 
     }
     #btn-menu {
         position: absolute;
         right: 10px;
         top: 10px;
         font-size: 2em;
-        /* display: none;
-        color: blue;
-        z-index: 10; */
     }
     #btn-menu:checked ~ .menu{
         right: 0;
@@ -338,43 +257,6 @@ footer {
         color: white;
     }
 }
-/* @media only screen and (max-width: 500px) {
-    ul {
-        display: none;
-    }
-    .menu-burger {
-        display: block;
-    }
-    .icono-spa {
-        left: 30px;
-    }
-    .box-img-principal-big {
-        display: none;
-    }
-    .box-img-principal-small {
-        display: none;
-    }
-    .box-img-principal-small-II {
-        display: block;
-    }
-    .articles {
-        grid-template-columns: 1fr, auto;
-        gap: 40px;
-        grid-template: "masajes"    auto    
-                       "piedras"    auto    
-                       "manicure"   auto  
-                       "maquillaje" auto    
-                       "peluqueria" auto  
-                       "depilacion" auto
-                       "productos"  auto
-                       "aceites"    auto /
-                        auto;       
-    }
-    .img-article {
-        width: 100%; 
-    }
-} */
-
 /* roboto-700 - latin */
 @font-face {
     font-family: 'Roboto';
