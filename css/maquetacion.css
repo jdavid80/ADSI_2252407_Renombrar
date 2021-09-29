@@ -61,7 +61,7 @@
 .news-6 {
     grid-area: news-6;
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (min-width: 641px) and (max-width: 1024px){
     .main-container {
         width: 85%;
         grid-template: "header         header"         90px
@@ -71,9 +71,6 @@
                        "news-5         news-6"         auto /
                         1fr            1fr;
     }
-/*     .img-article {
-        height: 250px;
-    } */
 }
 @media only screen and (max-width: 640px){
     .main-container {
@@ -91,7 +88,4 @@
     .news {
         font-size: .8em;
     }
-/*     .img-article {
-        height: 250px;
-    } */
 }

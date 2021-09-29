@@ -18,7 +18,7 @@ nav {
     top: 0;
     background: rgb(243,243,243);
 } 
-.menu-burger {
+.menu-hamburger {
     position: absolute;
     right: 20px;
     top: 10px;
@@ -69,8 +69,8 @@ section {
     margin-top: 70px; 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-   height: 400px;
+    background-position: right center;
+    height: 500px;
 }
 .articles {
     display: grid;
@@ -183,7 +183,7 @@ footer {
         width: 350px; 
     }
 @media only screen and (max-width: 800px) {
-    .menu-burger {
+    .menu-hamburger {
         display: block;
         color: rgb(48,48,48,.8);
     }
@@ -192,8 +192,8 @@ footer {
         z-index: 10;
      }  
      .menu {
-         background: rgb(0,0,0,.7);
-         height: 100vh;
+        background: rgb(0,0,0,.7);
+        height: 100vh;
         display: block;
         right: 100%;
         padding-top: 50px;
@@ -241,7 +241,7 @@ footer {
     #btn-menu:checked ~ .menu{
         right: 0;
     }
-    #btn-menu:checked ~ .menu-burger{
+    #btn-menu:checked ~ .menu-hamburger{
         color: white;
     }
 }
