@@ -1,0 +1,17 @@
+.main-box {
+    /* background: goldenrod; */
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    height: 300px;
+    overflow-x:scroll;
+}
+body {
+    background-color: rgba(0,0,0,.8);
+}
+.item-flex {
+    width: 200px;
+    height: 200px;
+    background: darkcyan;
+    color: white;
+}

@@ -1,9 +1,10 @@
+
 h1 {
     text-align: center;
 }
 .contenedor {
     display: grid;
-    grid-template-columns: 1fr 1fr  1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
     width: 90%;
@@ -18,7 +19,7 @@ h1 {
     /* Alineación horizontal */
     /* justify-items: start;
     justify-items: end; */
-    justify-items: auto;
+    justify-items: end;
 
     /* Alinear verticalmente */
     /* align-items: start; */
