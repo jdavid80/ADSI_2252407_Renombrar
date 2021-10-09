@@ -49,7 +49,6 @@ i {
 }
 ::placeholder {
     font-size: .8em;
-    color: rgb(255,255,255,.8);
     color: rgb(64,64,64, .5);
 }
 .fa-user-circle {
@@ -73,7 +72,7 @@ button:hover {
 }
 button:focus {
     background-color: rgb(12,12,12, .9);
-    outline: none;
+   /*  outline: none; */
 }
 h2 {
     text-align: center;
