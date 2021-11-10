@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Offline</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-offline.css">
+    <link rel="stylesheet" href="css/bootstrap-offline-facturacion.css">
+    <link rel="stylesheet" href="icons/all.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-nav">
+                
+                <nav class="nav-visible">
+                    
+                    <i class="menu-to-left fas fa-angle-double-left"></i>
+                    <ul class="nav flex-column">
+                        <li class="registrar-usuario"><a href="#"><span>Registrar Usuario</span></a></li>
+                        <li class="registrar-usuario"><a href="bootstrap-offline-productos.html"><span>Registrar Proveedor</span></a></li>
+                        <li class="registrar-ventas"><a href="bootstrap-offline-facturacion.html"><span>Facturación</span></a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-hidden">
+                    <ul class="nav flex-column">
+                        <li class="registrar-usuario"><a href="#"><span>Registrar Usuario</span></a></li>
+                        <li class="registrar-usuario"><a href="bootstrap-offline-productos.html"><span>Registrar Proveedor</span></a></li>
+                        <li class="registrar-ventas"><a href="bootstrap-offline-facturacion.html"><span>Facturación</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-12 col-md-10">
+                <i class="menu-to-right fas fa-angle-double-right"></i>
+                <div class="container-fluid container-form-user">
+                    <h1 class="h1">Facturación</h1>
+                    <div class="info-cliente">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <label class=datos-cliente>Identificación: C.C. 12265812</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <label class=datos-cliente>Cliente: Jesús David Calderón Gómez</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <label class=datos-cliente>Dirección: Calle 5E N. 3-18</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="col-sm-12 col-lg-4">
+                            <label>Código</label>
+                            <div class="form-floating mb-3">
+                                
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" disabled>
+                                <label for="floatingInput">1254863715</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-2">
+                            <label>Stock</label>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" disabled>
+                                <label for="floatingInput">20</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <label>Fecha</label>
+                            <div class="form-floating mb-3">
+                                <!-- <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com" disabled>  -->
+                                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" disabled>
+                                <label>13/10/2021</label>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-10">
+                            <label>Descripción</label>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" disabled>
+                                <label for="floatingInput">Cemento ARGOS x 50 kilogramos</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-2">
+                            <label>Cantidad</label>
+                            <div>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-8 txt-valores">
+                            <label>Precio por Unidad con IVA</label>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" disabled>
+                                <label for="floatingInput">$ 25.700</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-8  txt-valores">
+                            <label>Precio Total con IVA</label>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" disabled>
+                                <label for="floatingInput">$ 25.700</label>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-8 txt-valor-final">
+                            <label>Valor Total con IVA</label>
+                        </div>
+                        <div class="col-sm-12 col-lg-4  txt-valor-final">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" disabled>
+                                <label for="floatingInput">$ 25.700</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-final">
+                        <div class="col-6"></div>
+                        <div class="col-3">
+                            <button type="submit" class="btn btn-primary btn-enviar btn-user"><span class="icon icon-shopping-cart"></span><span class="texto-boton">Agregar al Carrito</span></button>
+                        </div>
+                        <div class="col-3">
+                            <button type="submit" class="btn btn-danger btn-enviar btn-user"><span class="icon icon-block"></span><span class="texto-boton">Cancelar el Producto</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

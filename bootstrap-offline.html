@@ -5,137 +5,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Offline</title>
-    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-offline.css">
+    <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
-    <div class="row">
-        <div class="col-2">
-            <nav>
-                <ul>
-                    <li class="registrar-usuario"><a href="#"><span>Registrar Usuario</span></a></li>
-                    <li class="registrar-usuario"><a href="bootstrap-offline-productos.html"><span>Registrar Proveedor</span></a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="col-10">
-            <h1>Bootstrap Offline</h1>
-            <div class="container-md">
-                <div class="row">
-                    <div class="col-6">
-                        <select class="size-reg-usuario form-select form-select-lg mb-3 " aria-label=".form-select-sm example">
-                        <option selected>Seleccione un tipo de documento</option>
-                        <option value="1">Cédula de Ciudadanía</option>
-                        <option value="2">Cédula de Extranjería</option>
-                        <option value="3">Pasaport</option>
-                        <option value="4">Tarjeta de Identidad</option>
-                        <option value="5">Registro Civil</option>
-                    </select>
-                    </div>
-                    <div class="col-6">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Ingrese el número de documento</label>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-nav">
+                
+                <nav class="nav-visible">
+                    
+                    <i class="menu-to-left fas fa-angle-double-left"></i>
+                    <ul class="nav flex-column">
+                        <li class="registrar-usuario"><a href="#"><span>Registrar Usuario</span></a></li>
+                        <li class="registrar-usuario"><a href="bootstrap-offline-productos.html"><span>Registrar Proveedor</span></a></li>
+                        <li class="registrar-ventas"><a href="bootstrap-offline-facturacion.html"><span>Facturación</span></a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-hidden">
+                    <ul class="nav flex-column">
+                        <li class="registrar-usuario"><a href="#"><span>Registrar Usuario</span></a></li>
+                        <li class="registrar-usuario"><a href="bootstrap-offline-productos.html"><span>Registrar Proveedor</span></a></li>
+                        <li class="registrar-ventas"><a href="bootstrap-offline-facturacion.html"><span>Facturación</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-12 col-md-10">
+                <i class="menu-to-right fas fa-angle-double-right"></i>
+                <div class="container-fluid container-form-user">
+                    <h1 class="h1">Registrar Usuario</h1>
+                    <div class="row justify-content-start">
+                        <div class="col-sm-12 col-lg-6">
+                            <select class="size-reg-usuario form-select form-select-lg mb-3 " aria-label=".form-select-sm example">
+                            <option selected>Seleccione un tipo de documento</option>
+                            <option value="1">Cédula de Ciudadanía</option>
+                            <option value="2">Cédula de Extranjería</option>
+                            <option value="3">Pasaport</option>
+                            <option value="4">Tarjeta de Identidad</option>
+                            <option value="5">Registro Civil</option>
+                        </select>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Ingrese el primer nombre</label>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Ingrese el segundo nombre</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Ingrese el primer apellido</label>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Ingrese el segundo apellido</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="row">
-                            <h5>Intereses</h5>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="programacion" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Programación
-                                    </label>
-                                </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Ingrese el número de documento</label>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="design" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Diseño Gráfico
-                                    </label>
-                                </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Ingrese el primer nombre</label>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="videojuegos" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Desarrollo de Vieojuegos
-                                    </label>
-                                </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Ingrese el segundo nombre</label>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <h5>Género</h5>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                    Hombre
-                                    </label>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Ingrese el primer apellido</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Ingrese el segundo apellido</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="row">
+                                <h5>Intereses</h5>
+                                <div class="col-10 col-sm-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="programacion" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Programación
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                    Mujer
-                                    </label>
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="design" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Diseño Gráfico
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                    Indeterminado
-                                    </label>
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="videojuegos" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Desarrollo de Vieojuegos
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <h5>Género</h5>
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                        Hombre
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                        Mujer
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                        Indeterminado
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
+                    <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
+                </div> 
             </div>
         </div>
     </div>
-</div>
 </body>
 </html>
