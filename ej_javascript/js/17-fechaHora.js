@@ -87,6 +87,53 @@ var msNavidad = fechaNavidad.getTime();
 var msFaltantes = msNavidad - msToday;
 console.log(msFaltantes);
 
+/* Cuantos días faltan para mi cumpleaños */
+var currentTime = new Date();
+/* var myHappyBirthday = new Date("July 5, 2022"); */
+var myHappyBirthday = new Date("February 16, 2022");
+/* Cúantos milisegundos han transcurrido hasta el día de hoy desde 01/01/1970 */
+var msActual = currentTime.getTime();
+var msMyHappyBirthday = myHappyBirthday.getTime();
+var diffMsHappyBirthday = msMyHappyBirthday - msActual;
+var segundosHappyBirthday = diffMsHappyBirthday / 1000;
+var minutosHappyBirthday = segundosHappyBirthday / 60;
+var horasHappyBirthday = minutosHappyBirthday / 60;
+var diasHappyBirthday = horasHappyBirthday / 24;
+console.log("La cantidad de días que faltan para el cumpleaños son: "+ Math.ceil(diasHappyBirthday) + " días");
+
+/* Cuantos años tendré en... */
+var fechaNacimiento = new Date("November 12, 2003");
+var fechaFutura = new Date("December 11, 2028");
+/* Obtener años */
+var anyoFechaNacimiento = fechaNacimiento.getFullYear();
+var anyoFechaFutura = fechaFutura.getFullYear();
+var mesFechaNacimiento = fechaNacimiento.getMonth();
+var mesFechaFutura = fechaFutura.getMonth();
+var diaFechaNacimiento = fechaNacimiento.getDate();
+var diaFechaFutura = fechaFutura.getDate();
+var edad = 0;
+
+edad = anyoFechaFutura - anyoFechaNacimiento;
+
+if (anyoFechaNacimiento < anyoFechaFutura) {
+    if (mesFechaNacimiento < mesFechaFutura) {
+        edad = anyoFechaFutura - anyoFechaNacimiento;
+    }
+    else if (mesFechaNacimiento === mesFechaFutura && diaFechaNacimiento <= diaFechaFutura){
+        edad = anyoFechaFutura - anyoFechaNacimiento;
+    }
+    else {
+         edad = edad - 1;
+    }
+}
+else if (anyoFechaNacimiento === anyoFechaFutura) {
+    console.log("Edad: 0 años");
+}
+else {
+    console.log("Los datos ingresados son incorrectos. Verifique por favor...");
+}
+console.log("Edad: " + edad + " años");
+
 /* Modificar hora */
 
 
